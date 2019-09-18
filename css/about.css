@@ -1,0 +1,137 @@
+section.block-title {
+  margin-top: 70px;
+  padding: 75px 0;
+  position: relative;
+  background: url(../images/bg/title-header.jpg) no-repeat fixed 50% 0;
+  background-size: cover; }
+  section.block-title:before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: auto;
+    bottom: 0;
+    background: rgba(0, 0, 0, 0.8);
+    width: 100%;
+    height: 100%; }
+  section.block-title .container h2 {
+    position: relative;
+    z-index: 0;
+    font-family: "OpenSans-Semibold";
+    font-size: 32px;
+    color: #fff;
+    text-transform: uppercase;
+    text-align: center;
+    letter-spacing: 1px;
+    display: table;
+    margin: 0 auto;
+    border-bottom: 2px solid #ccc;
+    padding-bottom: 20px; }
+    section.block-title .container h2:after {
+      content: "";
+      position: absolute;
+      left: 50%;
+      bottom: -1px;
+      width: 70px;
+      height: 4px;
+      background: #30d5c8;
+      display: block;
+      -webkit-transform: translate(-50%);
+      -ms-transform: translate(-50%);
+      transform: translate(-50%); }
+  section.block-title .container .breadcrumb {
+    position: relative;
+    z-index: 1;
+    background: none;
+    font-family: "OpenSans-Regular";
+    font-size: 16px;
+    color: rgba(255, 255, 255, 0.65); }
+    section.block-title .container .breadcrumb ul {
+      display: table;
+      margin: 12px auto 0 auto; }
+      section.block-title .container .breadcrumb ul li {
+        float: left; }
+        section.block-title .container .breadcrumb ul li:after {
+          content: "/";
+          padding: 0 8px; }
+        section.block-title .container .breadcrumb ul li:last-child::after {
+          content: none; }
+        section.block-title .container .breadcrumb ul li a {
+          color: rgba(255, 255, 255, 0.65);
+          text-decoration: none;
+          -webkit-transition: all .3s ease;
+          -o-transition: all .3s ease;
+          transition: all .3s ease; }
+          section.block-title .container .breadcrumb ul li a:hover {
+            color: white; }
+
+section.block-content {
+  padding: 70px 0; }
+  section.block-content .img-wrapper {
+    -webkit-box-shadow: 0 0 30px rgba(0, 0, 0, 0.15);
+    box-shadow: 0 0 30px rgba(0, 0, 0, 0.15);
+    position: relative; }
+    section.block-content .img-wrapper:before {
+      content: "";
+      position: absolute;
+      top: 0;
+      left: 0;
+      right: auto;
+      bottom: 0;
+      background: rgba(0, 0, 0, 0.5);
+      width: 100%;
+      height: 100%; }
+  section.block-content .content-wrapper {
+    padding: 40px;
+    width: 600px;
+    position: relative;
+    top: -5px;
+    right: 0;
+    float: right;
+    z-index: 1;
+    background: #fff;
+    -webkit-box-shadow: 0 0 30px rgba(0, 0, 0, 0.15);
+    box-shadow: 0 0 30px rgba(0, 0, 0, 0.15); }
+    section.block-content .content-wrapper h2 {
+      font-family: "OpenSans-Bold";
+      font-size: 18px;
+      text-transform: uppercase;
+      letter-spacing: 1px;
+      color: #000;
+      margin-bottom: 15px; }
+    section.block-content .content-wrapper h3 {
+      font-family: "OpenSans-Semibold";
+      font-size: 15px;
+      text-transform: uppercase;
+      letter-spacing: 1px;
+      color: #000;
+      margin-bottom: 25px; }
+    section.block-content .content-wrapper p {
+      font-family: "OpenSans-Regular";
+      font-size: 16px; }
+      section.block-content .content-wrapper p.strong {
+        font-family: "OpenSans-Bold";
+        margin-bottom: 0; }
+    section.block-content .content-wrapper a.order {
+      font-family: "OpenSans-Semibold";
+      color: #fff;
+      background: #30d5c8;
+      text-decoration: none;
+      display: table;
+      margin: 0 auto;
+      line-height: 46px;
+      text-transform: uppercase;
+      font-size: 14px;
+      padding: 0 34px;
+      border-radius: 26px;
+      -webkit-transition: all .3s ease;
+      -o-transition: all .3s ease;
+      transition: all .3s ease; }
+      section.block-content .content-wrapper a.order:hover {
+        background: #1b847c; }
+
+.mainpage {
+  width: 100%;
+  min-height: 700px;
+  min-height: 768px;
+  overflow: hidden; }

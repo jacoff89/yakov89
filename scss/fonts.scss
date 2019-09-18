@@ -1,0 +1,22 @@
+@font-face {
+          font-family: "OpenSans-Bold"; /* имя шрифта для CSS правил */
+          src: local("OpenSans-Bold"), /* проверяем наличие шрифта в ОС пользователя */
+          url(../fonts/OpenSans/OpenSans-Bold.ttf); /* если шрифт не установлен, тогда загружаем его по указанному пути */
+          font-style: bold;
+}
+@font-face {
+          font-family: "OpenSans-Regular"; /* имя шрифта для CSS правил */
+          src: local("OpenSans-Regular"), /* проверяем наличие шрифта в ОС пользователя */
+          url(../fonts/OpenSans/OpenSans-Regular.ttf); /* если шрифт не установлен, тогда загружаем его по указанному пути */
+          font-style: normal;
+}
+@font-face {
+          font-family: "OpenSans-Semibold"; /* имя шрифта для CSS правил */
+          src: local("OpenSans-Semibold"), /* проверяем наличие шрифта в ОС пользователя */
+          url(../fonts/OpenSans/OpenSans-Semibold.ttf); /* если шрифт не установлен, тогда загружаем его по указанному пути */
+}
+@font-face {
+          font-family: "OpenSans-Light"; /* имя шрифта для CSS правил */
+          src: local("OpenSans-Light"), /* проверяем наличие шрифта в ОС пользователя */
+          url(../fonts/OpenSans/OpenSans-Light.ttf); /* если шрифт не установлен, тогда загружаем его по указанному пути */
+}
